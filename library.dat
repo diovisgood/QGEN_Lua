@@ -1,0 +1,170 @@
+return {
+  {
+    code='pc Val po Val Sub',
+    comment='Body'
+  },
+  {
+    code='pc Val po Val Sub Abs',
+    comment='Abs(Body)'
+  },
+  {
+    code='ph Val po Val Sub ph Val pc Val Sub Min2',
+    comment='Upper shadow'
+  },
+  {
+    code='po Val pl Val Sub pc Val pl Val Sub Min2',
+    comment='Lower shadow'
+  },
+  {
+    code='I I I I I I I I I I I I I I I I I I I I ptr SMA',
+    comment='ATR(66)'
+  },
+  {
+    code='pc Val po Val Sub Abs I I I I I I I I I I I I I I I I I I I I I I I I I ptr SMA Gt Mul',
+    comment='Filter: Abs(Body) is larger than ATR'
+  },
+  {
+    code='ptr Val I I I I I I I I I I I I I I I I I I I I I I I I I ptr SMA Gt Mul',
+    comment='Filter: TrueRange is larger than ATR'
+  },
+  {
+    code='I I I I I I I I I I I I I I I I I I I I ptr SMA 3.55 Mul I I I I I Hours ph Max Add',
+    comment='High stop level'
+  },
+  {
+    code='I I I I I Hours pl Min I I I I I I I I I I I I I I I I I I I I ptr SMA 5.3 Mul Sub',
+    comment='Low stop level'
+  },
+  {
+    code='I I I I I I I I I vwap fCos -0.8 Lt Neg',
+    comment='Price looks like cos wave. Maybe it\'ll go up...'
+  },
+  {
+    code='I I I I I I I I I vwap fCos 0.8 Gt Neg',
+    comment='Price looks like cos wave. Maybe it\'ll go down...'
+  },
+  {
+    code='I I I I I I I I vwap fUp 0.8 Gt',
+    comment='Price looks like up-trend wave. Maybe it\'ll go up...'
+  },
+  {
+    code='I I I I I I I I vwap fDown 0.8 Gt Neg',
+    comment='Price looks like down-trend wave. Maybe it\'ll go down...'
+  },
+  {
+    code='I I I I I I I I I I I I I I I I I I I I vol SMA',
+    comment='SMA(VOL,66)'
+  },
+  {
+    code='vol Val I I I I I I I I I I I I I I I I I I I I I I I I vol SMA 1.5 Mul Gt Mul',
+    comment='Filter: Last volume is higher than average * 1.5'
+  },
+  {
+    code='po Val I pc Val Sub',
+    comment='Price gap (previous candle close - last candle open)'
+  },
+  {
+    code='po Val I time Delta 0 Lt Mul Rep',
+    comment='Current day open'
+  },
+  {
+    code='Days pc Val po Val I time Delta 0 Lt Mul Rep Sub',
+    comment='Morning gap: (Previous day close - Current day open)'
+  },
+  {
+    code='Hours oh Val',
+    comment='Current day high'
+  },
+  {
+    code='pc Val Hours oh Val I I I I I I I I I I ptr SMA Add Gt Mul',
+    comment='Filter: Price is higher than (current day high + ATR)'
+  },
+  {
+    code='Hours ol Val',
+    comment='Current day low'
+  },
+  {
+    code='pc Val Hours ol Val I I I I I I I I I I ptr SMA Sub Lt Mul',
+    comment='Filter: Price is lower than (current day low - ATR)'
+  },
+  {
+    code='Days pc Val',
+    comment='Previous day close'
+  },
+  {
+    code='Days ph Val',
+    comment='Previous day high'
+  },
+  {
+    code='Days pl Val',
+    comment='Previous day low'
+  },
+  {
+    code='Days vwap Val',
+    comment='Previous day VWAP'
+  },
+  {
+    code='Days pc Val I Days po Val Sub 0 Gt Mul',
+    comment='Filter: Price was growing for last two days'
+  },
+  {
+    code='Days pc Val I Days po Val Sub 0 Lt Mul',
+    comment='Filter: Price was falling for last two days'
+  },
+  {
+    code='I time Delta 0 Lt Mul',
+    comment='Filter: First candle of a new session'
+  },
+  {
+    code='I time Delta 0 Gt RepM',
+    comment='Expand signals with closing positions at the start of a new session'
+  },
+  {
+    code='I time Delta 0 Gt RepM',
+    comment='Expand signals with closing positions at the start of a new session #2'
+  },
+  {
+    code='I I I I I RepN',
+    comment='Expand signals 5 times'
+  },
+  {
+    code='time Val 0.072289 Gt time Val 0.096385 Lt Mul Mul',
+    comment='Filter: Time (> 11:00) and (<= 11:20)'
+  },
+  {
+    code='time Val 0.072288 Gt time Val 0.14457831 Lt Mul Mul',
+    comment='Filter: Time (>= 11:00) and (< 12:00)'
+  },
+  {
+    code='time Val 0.144377 Gt time Val 0.216867469 Lt Mul Mul',
+    comment='Filter: Time (>= 12:00) and (< 13:00)'
+  },
+  {
+    code='time Val 0.216666 Gt time Val 0.28915662 Lt Mul Mul',
+    comment='Filter: Time (>= 13:00) and (< 14:00)'
+  },
+  {
+    code='time Val 0.288955 Gt time Val 0.36144578 Lt Mul Mul',
+    comment='Filter: Time (>= 14:00) and (< 15:00)'
+  },
+  {
+    code='time Val 0.3612449799196 Gt time Val 0.4337349397590 Lt Mul Mul',
+    comment='Filter: Time (>= 15:00) and (< 16:00)'
+  },
+  {
+    code='time Val 0.4335341365462 Gt time Val 0.50602409638554213 Lt Mul Mul',
+    comment='Filter: Time (>= 16:00) and (< 17:00)'
+  },
+  {
+    code='time Val 0.50582329 Gt time Val 0.5783132530 Lt Mul Mul',
+    comment='Filter: Time (>= 17:00) and (< 18:00)'
+  },
+  {
+    code='I time Val 0.6506024096 Gt Mul',
+    comment='Filter: Evening session (time > 19:00)'
+  },
+  {
+    code='time Val 0.9879 Gt Mul',
+    comment='Filter: Time at the end of a session (> 23:40)'
+  },
+}

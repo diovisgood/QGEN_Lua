@@ -1,0 +1,309 @@
+return {
+  {
+    code='pc Delta Rank Dup vol Delta Hours I 0.42799277456389 Prod vwap pc fDown Std Abs Hours Delta ptr fCos Val Hours Max2 time Hours Dup pl Val Min Gt iRank ph Prod vwap vwap time Delta Pow ph -9.2846828068313 Gt',
+  },
+  {
+    code='Min2 po iRank I Corr Swap Add Prod Min2 Val',
+  },
+  {
+    code='pl Mod Swap po time iRank Exp Covar ptr Lt Std I fDown Gt Val ph pc Std Max2 pc vwap RepN time Std RepM time vwap vol Delta iRank Std po po RepM Days Abs Max Nop fUp vol Div',
+  },
+  {
+    code='7.1460191952972 Mul Div I Swap Covar Prod -5.6668893758115 vwap 2.7298239935474 vol Val time fCos pc Exp pl RepM Log ptr Log Div 2.7121111922004 pl I Gt ptr ptr pc Min2 Exp -7.2010139773915 fCos Nop time Neg pc vwap ph',
+  },
+  {
+    code='Covar Hours Delta Max fUp vwap Max ph fDown I 4.1305512411088 Log pc I WMA Pow fUp Val iRank vwap SMA Val Sum Hours Mod If Max Sum Exp Exp ptr RepM po Delta Max2 Mul fDown time Corr Std',
+  },
+  {
+    code='Sub Rank Swap pl Delta Val -6.7902257661693 Std Days I time ph Min vwap Div pc If Log Gt fDown Prod Max2 Swap',
+  },
+  {
+    code='ptr Sub Corr Days Mod Val pl fCos Sub Swap vwap Corr fCos ph ph ph pc fCos',
+  },
+  {
+    code='Prod Exp Nop Corr Sign fDown Delta fUp Pow Pow Delta ph Min2 Div fDown Max2 pc Min2 ph WMA pl Sub Mod Sub iRank Sum Rep Add SMA Sum Delta Covar Max vol time Pow iRank Corr pl I Mod -4.0061109282108 time pl fCos',
+  },
+  {
+    code='Std 9.4388059969945 vol Sub vwap 2.0435534770101 Covar I pc iRank Max Pow Val I vwap Min2 time Delta Lt Swap time Delta fUp pc fDown Dup ph',
+  },
+  {
+    code='7.3999289389073 Sum time ptr Lt Rep Rank iRank RepM Sub I Delta Min Nop Nop fDown vol RepN Swap fCos ptr Exp Nop',
+  },
+  {
+    code='Std fUp Exp ph Sign Gt Pow Abs Max pc Prod I Pow pc po pl Swap po time time Pow Exp ptr 1.8533727839335 Min I Delta Pow time I pl 2.5385996592191 Lt po time I RepM Dup vwap Prod Log',
+  },
+  {
+    code='iRank Abs Covar vwap Min Sum fDown vwap Max Swap Neg Std Lt Delta ph iRank Delta Max Days Mod',
+  },
+  {
+    code='SMA Swap RepN Neg Min Gt pl Gt Max Lt I pl If Prod Add Add -2.5290787347533 Gt fDown Rep 6.2400491845244 Abs Mul Min Nop 7.2198499646775 vol Val Max I po Rank Delta Sub Rank Abs pl fUp Pow Sum pc WMA pc Lt Covar ptr',
+  },
+  {
+    code='Rank time Mul Max2 Nop vol Corr ph Pow time iRank Gt time Val po Delta time Prod Add Mul Sign Max pc vol Dup time -8.6336671070352 Neg Delta fDown time Covar -1.650345495406 po Dup I',
+  },
+  {
+    code='po Std ph Rep Sub ptr Swap Div Covar Max Hours Val Sign pc iRank fUp Val ptr Std If 9.163248224695 Mul Min2 vol fCos Max fUp iRank Std Max pl Nop Delta ptr Max Add Val Val po',
+  },
+  {
+    code='Add Abs po Swap -9.2886829473157 time Mul Gt Std Gt Gt Dup po Sign Min pl Gt -9.27999794357 vwap Max2 time Exp iRank Exp Delta Min Exp',
+  },
+  {
+    code='iRank Abs Gt Covar Mul vwap RepM ph Div Std Gt ph Sum Max2 ptr Rank Val Val Std ph fDown Dup Max2 Max2 ph Min Hours Hours Mul fCos vol Std SMA Max2 fUp',
+  },
+  {
+    code='-2.9602806714123 -0.35334716557089 Mul fCos Lt Sign iRank Mod time Sign po fCos Mod Mul Mod vol Div Sub -1.0504211187284 Hours 7.0184920715854 RepM Hours Add RepN vol Nop vol vwap Lt Exp Neg Max2 Hours iRank Log Hours I ptr -3.2271357202894 vol Max2',
+  },
+  {
+    code='RepM fCos Sign vol RepN Swap I I Val iRank 2.2001161453292 Days iRank ptr Lt Add Nop Pow Neg',
+  },
+  {
+    code='Gt RepN Lt pc fUp WMA po ph Dup time Val Mod Swap ptr Delta Covar pc Sum Neg If vwap ptr ptr Abs Div time Max2 Delta Log Mod Val Covar I 7.8952682732051 Prod pc Covar Max2 9.8420274676436 Days po fDown vol RepM vwap 7.6507046466892 vwap',
+  },
+  {
+    code='Max Val po Mul SMA po ptr Pow Covar Val Dup Pow Gt Delta',
+  },
+  {
+    code='Mul po Mul I Sub Mul Dup -3.4278158425221 RepM Max RepN pc Mul po Sign If Pow ph Mod fUp Covar pc I RepN pc po Max RepM Min2 Corr Log If I Prod ph 1.3690110943704 Delta Neg',
+  },
+  {
+    code='-3.5489536946319 RepN Val Days I ph Nop Delta ph time I po Pow Lt Max If I Max',
+  },
+  {
+    code='fUp Swap Covar I fCos pl fCos vwap Rep Delta If Max pl fDown -5.1844195443004 Sub WMA Max fCos fDown ph pc WMA Sub Delta time Dup Mod Dup vwap Delta Dup Nop fCos Delta Mod RepN fDown Corr If WMA Days Corr pc vwap Nop vwap',
+  },
+  {
+    code='fUp Div Min Min2 pc pc Val Dup Min2 ph Max2 Prod Min Val pl Covar RepN vol Min2 Sign Std Hours Nop I ptr I time pc Pow RepM I fUp',
+  },
+  {
+    code='fDown I ptr Neg Sum Sign ph Dup Nop Swap ph po Exp Div Lt Sign WMA ptr pc RepM pc iRank Delta -5.3589546058595 ptr Delta pc ph Add fDown pc Mul Nop Days WMA Lt',
+  },
+  {
+    code='Prod RepM Covar Mod Sum Val Max2 WMA Delta Hours Val time Prod fCos Lt fDown Swap iRank Delta pl vol fCos Max Gt RepM',
+  },
+  {
+    code='Min2 pc Sign RepN pl Hours Lt Std pl pl Add',
+  },
+  {
+    code='fDown Min Sub Exp Add Min2 Days vwap vol Mul Sum Lt I I Val po time Max',
+  },
+  {
+    code='Min2 RepM Std SMA Exp Lt Dup time Mul I vwap Delta Nop Val Rep Mul',
+  },
+  {
+    code='Swap po fCos If Max2 If Hours iRank -1.1273171702444 pc ptr iRank Sign Rank RepM Mul Abs I Min2 pl 2.1916984996615 ptr Min Neg time WMA Min vol pc Rep I ph Delta Hours -7.2553430184485 Sign I -9.6771948970798 Div Covar Min Max',
+  },
+  {
+    code='fDown vwap Std Dup Days time iRank Val fDown Min2 fDown Div I ph Max Rep Max2 If vol Sum Nop Gt pl Min2 Hours Min Neg vol Dup Dup Max Sub Covar ptr ph Swap I Pow Days Swap',
+  },
+  {
+    code='-8.3134726727598 Gt Max2 fUp Std Max ph 4.09489384922 Std Min2 Rep RepN Corr time vol po Div 4.800687625284 Abs Hours fCos Corr Sum time ptr Max Sign Neg',
+  },
+  {
+    code='Dup vol Rank pc ph Val Min Swap I I Sub Lt Swap',
+  },
+  {
+    code='ptr Abs Days vwap Pow Pow Hours vwap Neg Rep vwap ph Std vol Corr Log Covar',
+  },
+  {
+    code='ph pl fCos ptr Mul Hours Sum time pc Hours RepM Val RepM ptr Gt fUp pl 3.2891988547553 Exp Sum Gt time RepN Prod fCos Min2 Gt',
+  },
+  {
+    code='fCos Abs pl ptr vwap If Lt Rank fDown If Lt Sum Min2',
+  },
+  {
+    code='I Sign Log Pow fDown vol Sign Corr Dup pc vwap Min Swap pc Rep',
+  },
+  {
+    code='Min Corr Abs Hours Neg iRank Min2 Add pc ptr Delta WMA Abs vwap 3.8808092035207 ptr pl po Max Sign fDown Max 9.1991824453308 ptr WMA Covar Add Add time ph Neg vwap Neg iRank Val pl iRank fDown Delta Max',
+  },
+  {
+    code='ptr Add Covar pl Nop Covar Rank ptr vwap SMA Div vol Swap 4.2069492677178 Lt Dup Log Rank fDown vol RepM Val Pow Min2',
+  },
+  {
+    code='vol -2.9698447993942 vol po 2.7888404990501 Nop po ptr Exp Mul Abs pl Pow Max2 Rep Rank Lt vol Hours vwap Pow fDown I RepN Add pl Mod Nop Div -2.3019154352168 ph WMA Gt Delta 0.21772965591354 ph ph pl Pow Sign fUp Swap Neg Prod vol Days -5.9482778859676 time ptr',
+  },
+  {
+    code='Max2 Delta time fDown vwap ph Min2 Exp Rank Sum If Std ph pc Gt Log',
+  },
+  {
+    code='3.8541642538455 Sign Rank Prod vwap I time time Div Sum time Sign fUp Abs Delta WMA fCos Neg WMA ph vwap Rep ptr ptr pc time ptr iRank Min Neg ptr ptr Delta Sub Log Max2',
+  },
+  {
+    code='Delta Val Mod Pow 4.2190903209772 Gt fUp Rank WMA -0.73834661193017 Val fDown ptr Lt pl Div Val -2.3672506078652 Min Log vol Std I Mod Delta vwap Dup fCos ph RepN Gt -7.3294208594572 Val 2.0795151667688 Lt Covar Log fUp Min2 Corr vwap pl',
+  },
+  {
+    code='pc RepN ptr fUp pl po Mul Exp fUp Mod Val Max Sum Mul',
+  },
+  {
+    code='Rank Val Max2 time Swap WMA pl Mod Log Val pl Nop Div Max2 ptr po time po Days po SMA WMA Days Abs Min',
+  },
+  {
+    code='po pc Val SMA ptr pl pl Sign WMA Pow Log 8.5352576008495 iRank vol',
+  },
+  {
+    code='Max2 time time Std fUp Log vol Days Mod Exp Log Delta Std Swap Covar Sub I If Covar pl iRank Gt Hours Std vol 6.172735534527 pl Swap vol If pc ph WMA po Val vol Covar Prod po Div Corr fUp Days RepN Sum Corr',
+  },
+  {
+    code='Log ptr Abs I Max fCos I vwap pl pc ptr po Sum Min Rank Sum Div Max2 Neg Abs Rank Hours Nop Add Lt vol 4.7593197747584 Abs pc po Div Log ptr Rep Days Sub Max po -8.3430899566765 I Swap fDown ptr',
+  },
+  {
+    code='time Nop Std ptr Corr SMA po Sub Swap time Lt Mul po pc Pow Exp Days Lt Log fUp ph fCos Lt',
+  },
+  {
+    code='Sum Sum Neg Corr WMA vwap Std vwap Gt vol vwap Neg pc vwap',
+  },
+  {
+    code='time pc 7.2843808848243 -4.245814617176 time ph RepM Mod Mod WMA Rep Delta Rep Std -4.9183558620686 Swap',
+  },
+  {
+    code='fUp Covar Mul Sign Delta Div Exp vol Sign pl WMA I vwap -3.1246038523998 fDown vol Val I SMA Prod 3.6734121500329 Corr Sum Min pc Min2 pl Days Log RepM vwap RepN Abs Covar ptr Abs Std time ptr Add Max2 vwap Rank Min2 RepM time po -8.5896206258037 Add ptr',
+  },
+  {
+    code='9.108465536388 pl Lt Val fUp po Pow pl Prod vol Gt fDown vwap Rep Abs Val Mod ptr Neg ptr Max fDown RepM Delta fDown pl Hours ph fCos Lt pl pl',
+  },
+  {
+    code='Min2 vol Log Abs Std RepN Log ph Abs iRank WMA Sub 1.3395650250522 pl WMA Gt Add iRank pl',
+  },
+  {
+    code='vwap I Swap Pow pl SMA Exp Exp ph Mod WMA Rep Val Max2 Val fCos ph Corr ptr Sign I Nop time I SMA Rank Rep Lt Hours pc Rank Std Abs If fCos Neg fUp WMA po Mul I Prod Max Lt Hours time RepN Mul pc Pow',
+  },
+  {
+    code='If Div Sum RepN pl RepN Pow Nop Max2 ph Val Pow Gt Covar Prod ph I WMA iRank Add Dup po SMA vwap -8.0868018777405 Max2 WMA Mul Covar RepM I If fCos Div Sign ptr',
+  },
+  {
+    code='Sum RepM Rep ptr ptr Abs ph Rep Hours Max I iRank Std -1.4656084616769 Val Sum Min2 Min Delta I Sign fUp If ptr ptr pc If Val po Max2 Neg Hours fDown -3.8825043427149 fDown',
+  },
+  {
+    code='Log Dup Max2 Rank time ptr ph Neg pl -5.3267109186816 Pow Corr Corr -6.1002212955917 Neg iRank Lt vwap fUp Gt time -2.4605846658653 Min Dup RepN Gt fUp fUp po Mod Corr RepM -9.6333186140395 Delta time Min pc po Mod fUp Min2 Add Nop pc Mul',
+  },
+  {
+    code='vol Swap Nop Days I Nop I pc If vol Min2 vwap time Add RepM pl Pow vwap Sub If -1.645858852385 po Sign WMA RepN ptr',
+  },
+  {
+    code='fDown Add Prod SMA vwap Rep ptr Log Add pc Pow Val pl 8.4050442864198 I fUp Sign 2.5500649726481 5.8427218243306 RepM Corr -9.9197903126931 ptr Prod Max Delta pl Val fCos Sign',
+  },
+  {
+    code='Lt Gt Delta fDown Prod Days Val fUp Mod Gt pl Sub Mod Swap Swap RepN po Swap iRank time pl fCos vol Swap Dup Pow Val Rep RepM vol Hours po Delta',
+  },
+  {
+    code='I Val Exp Exp WMA Max Min vwap ph Min2 Swap po Max Exp pc ph Covar Pow RepN',
+  },
+  {
+    code='WMA Sum Prod I vol Hours Swap If I pc Nop fCos po Delta I Covar Mod RepM ptr Mul Min2 po If iRank time Gt Covar 9.969871262707 Days fDown po ptr Min2 Rep Covar ph Val Days ph pl Min vol Days pl vol Pow RepN Std SMA',
+  },
+  {
+    code='Delta Dup WMA vol pl Min2 Dup po Rank Prod Lt Nop pl Val Delta Corr Exp Dup Max pl Std Mul pc fUp Delta Min Sign Lt Mod ptr Nop Swap Delta Delta Exp',
+  },
+  {
+    code='I ptr fDown ptr Exp Pow Rep ptr Covar Rank fCos po vol 4.3218071703563 time Days Sum Add 7.8535845422961 time Delta ptr Div RepN Delta Val time',
+  },
+  {
+    code='vwap vwap Dup Rep Sub Covar Sum Covar I Corr Days Max Neg Nop Delta Lt ph SMA Val Exp Max2 Min Val Nop RepM pl Neg Neg Rep Hours pc Add Max Hours fCos Log Sign Nop time -7.8421890743839 time Corr Min Days',
+  },
+  {
+    code='If Log pl Sum Log pl Pow Rank Dup Max2 Mod po Sign Lt vwap Prod pc RepN ptr Nop Delta I Sign Sub Dup Max2 vol Div SMA Corr po Sum Max RepM SMA Sub',
+  },
+  {
+    code='Log Log iRank Delta Days vwap Exp Days fCos Nop ptr ph Sub Abs Prod Neg Log If pc Neg Rep Prod Nop Prod WMA Log po po RepN Sign Sum SMA pl Min2 Mod Rank Mul Abs po vwap Dup pc Abs',
+  },
+  {
+    code='Corr Min pc WMA If Dup vwap Rep fCos 3.6620608054838 Abs vwap Delta Covar Corr Mod Sign vol',
+  },
+  {
+    code='Nop Min2 Exp Delta time Corr po Exp Rep Max2',
+  },
+  {
+    code='Add Delta Std Std RepN ptr fCos I ptr time Prod Nop',
+  },
+  {
+    code='Abs Prod Sum Swap Max2 -3.3928458607715 Delta pc vwap Nop Rank Log po ptr Sub time Nop Days Val Covar pc RepN 0.43221259473192 If',
+  },
+  {
+    code='Val ph Mod time Sum Rank vol vwap time Hours',
+  },
+  {
+    code='vol Add iRank Days Covar Prod -2.6428418771111 Val Val Rep RepN Rep Val Val SMA time I Exp Val ptr Val Mul Covar Sub Neg Delta ptr ptr time Min pl Mul I -6.2107097160155 Lt I ph Prod Sign Val Std Exp I fDown Rep I ph -3.7699189170948 Gt Add',
+  },
+  {
+    code='ptr Mul Rep Std Days Mod I Corr Gt Val -8.1547045198476 Gt If Mul Max Add Dup -5.259405212884 vwap Val Dup Delta Min2 iRank time',
+  },
+  {
+    code='time vwap -4.0285059368554 Lt Rep pc Pow RepN ph fCos Val pc ph vol Exp vwap',
+  },
+  {
+    code='Dup Days Val Sub ptr vwap Lt RepN vol Std Add ptr vol po RepN Prod Dup I Max2 If po Days Max2 Lt Mod Prod Sub Mod Exp Corr Delta Max2 I',
+  },
+  {
+    code='ph pl vwap RepM I -7.5367461580049 Corr vol Hours Gt Mod pl Div time Std Mod Min2 vol RepN Rep If Rep iRank I pl Abs Gt Std Dup time time vwap 3.1484567470276 fUp Covar time pc I Rank ptr pl',
+  },
+  {
+    code='Hours -3.0268763816901 Rank time RepN Std po Rep Val I Corr',
+  },
+  {
+    code='Dup pc Val Std pc Max Sign time pl fCos Abs Max2',
+  },
+  {
+    code='Pow Covar Min2 Swap Div Min Mod ph po Add I Neg Delta Sign Sum fDown Add SMA 5.3571910380054 I',
+  },
+  {
+    code='Std If Min2 Mul -6.9959282651984 3.7694078194463 Hours time Val Mod ptr Max2 I RepM Min Sign pl ptr time vwap po Lt Mul Hours Corr Min2 Max Days Delta',
+  },
+  {
+    code='po time Div po Min Mod fCos Rank Rank Covar Rep',
+  },
+  {
+    code='pc I SMA Max2 Mul vol time Swap Corr Rank Log pc Sub -0.12078351647294 vol Max2 pl Mod Min Mod ph Max2 Sub 1.0500545345595 Gt',
+  },
+  {
+    code='ph pc Max2 pl po Corr fDown RepM Sum Exp If Max Max2 Sign vol Prod Exp Gt ph Covar SMA pc Rep Sign pl vol ph 5.0326199309114 Min2 If Delta Sub Val Covar vwap Min2 SMA time iRank Add Dup Rep Dup Covar Delta',
+  },
+  {
+    code='fUp fUp Dup I Swap Dup vwap Days Min Add iRank Rep pl RepM Pow Mod po Max Lt Delta Rank',
+  },
+  {
+    code='Mul Neg -5.2344480683779 vwap I WMA vwap Pow Lt iRank Delta',
+  },
+  {
+    code='pc Val Days Exp Std vwap Sub If Delta Val -6.6467357649456 vwap Log iRank time Abs 4.8401464716812 Exp pc Pow Abs Lt SMA pc 6.3985662398968 fUp Swap po time Min2 time po Sign pc iRank Corr Sub Swap Pow po Pow Dup RepM po Abs Rep RepM Rep Lt Abs',
+  },
+  {
+    code='WMA Min2 Sum vwap vol SMA SMA Delta vol RepM time Dup Nop Std pl Val Log Val po Max2 -7.1916555865135 RepM WMA Rank Val Days Min Val Exp SMA time Pow ptr Prod',
+  },
+  {
+    code='Pow vwap ph Corr Std Val Gt Corr vol Max ph Prod vol po RepN ptr If Covar time Mod Covar po Exp time Delta Mul Covar Sign ptr Val If Abs Days Add fUp RepM Gt RepM Min RepN fCos Delta time Exp Corr If Gt Max2 vol',
+  },
+  {
+    code='Lt Rep ptr Div -4.7395679479555 fDown Delta vwap I vol ph vol ptr pl time Min Delta vwap 2.6870438725875 Rep I pl Std Rank Gt Val Max Corr SMA Rep Mul Min2 vol Nop Neg If Mul iRank Prod Min2 Sign Mod pl Delta ptr Div RepM time I Max2',
+  },
+  {
+    code='Days RepM Mul WMA Min Mod vol I time pl Days -6.4758333767375 ph RepN ptr 3.0835297818848 WMA Mul Prod',
+  },
+  {
+    code='Nop Div Sum Hours pl time pl Val vwap Neg Hours Min2 Prod RepN ph Abs Days fUp RepN WMA Mod vwap time Gt vwap 9.9841377945464 po time ptr Corr pc vwap Log ph SMA pc vol Exp If 9.9521129837523 Abs Days Prod',
+  },
+  {
+    code='Sign Log Neg Max2 Val Exp ph pl Lt vwap ptr pl vwap po If vwap Gt SMA pc Sub pl Hours Mul Rank ptr ptr ph Sign Rank Rank vwap ph vol Add 1.9887855560556 pc',
+  },
+  {
+    code='ptr vwap Prod Add Neg ptr Abs Covar Sub Abs Hours Sign po Mod Min time 8.6066355384293 Abs Pow Min pl fDown pl',
+  },
+  {
+    code='8.5457839110764 Min2 Rank fCos Delta vol Std Val Days -9.5838804652981 ph Val SMA Covar 3.0315259842816 Swap Days Val Rep ptr Pow po pl fDown I',
+  },
+  {
+    code='Val Min ph ph Exp po iRank pc Delta RepM Pow iRank Nop Rank pc pc pl Corr Dup Sign iRank vwap Sub -9.7960735733378 Val Std ph Hours RepM time Mod SMA time pl Delta Gt Pow Abs',
+  },
+  {
+    code='Dup ph fUp Hours Pow Delta Hours Abs fCos If RepM Swap Sub Rank If Lt Val Sum WMA Delta po fUp Std 7.9641139662095',
+  },
+  {
+    code='-7.8050424613239 SMA Abs Gt ptr Nop Sign ph po Abs vol Val fDown Abs Nop Hours Max Abs pc Neg Prod Std Sign time pc Sub po Delta Div vol ptr SMA Val Sign Min Rank vol Mod pl Log Hours 5.4633325483571 Hours vol Add Min2 Nop RepN ph pc',
+  },
+  name='astraea',
+  dataset_last_time=1533934208, -- 2018-08-11 01:50:08
+  last_iteration_time=1534077217, -- 2018-08-12 17:33:37
+  iterations_count=0,
+  epochs_count=0,
+  update_count=0,
+  last_serial=100,
+}
