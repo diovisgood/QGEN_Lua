@@ -123,7 +123,7 @@ sqrt
 After execution there will be one item on a stack, containing the result of this formula.
 
 The same principle is used in this project.
-In [`syntax.lua`](syntax.lua) you may find sequence generation, mutation and cross-breeding operations.
+In [`syntax.lua`](syntax.lua) you may find sequence generation, mutation and crossover operations.
 And in [`processor.lua`](processor.lua) you may find all operations.
 
 > Note: each line here should be treated like one **symbol**.
@@ -262,7 +262,7 @@ So our algorithm becomes as follows:
 1. Start with a population of initially random sequences.
 2. Measure the score of each sequence in population.
 3. Drop out the worst 10% of population sequences, keeping 90% others.
-4. Use remaining sequences to create new sequences via mutations and cross-breeding,
+4. Use remaining sequences to create new sequences via mutations and crossover,
 restoring the population to it's predefined size.
 5. Goto 2.
 
